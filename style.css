@@ -1,0 +1,90 @@
+body{
+    font-family: 'Baloo Bhai', cursive;
+   background:url(images/bgimage.jfif);
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-attachment:fixed;
+   margin:0;
+   padding:0;
+   color:white;
+
+}
+.left{
+
+    display:inline-block;
+    width:140px;
+    height:45px;
+    position:absolute;
+    left:20px;
+    top:15px;
+    border:2px solid black;
+}
+.left img{
+    width:100%;
+    height:100%;
+}
+.mid{
+    display:block;
+    width:50%;
+    margin:20px auto;
+    border:2px solid green;
+}
+.mid li{
+    display:inline-block;
+    font-size:18px;
+    margin-right:5px;
+}
+.mid a{
+    text-decoration:none;
+    color:white;
+    margin-right:5px;
+}
+.mid ul{
+    display:inline-block;
+    margin:10px auto;
+}
+.right{
+display:inline-block;
+position:absolute;
+right:50px;
+top:30px;
+}
+.btn{
+    font-family: 'Baloo Bhai', "cursive";
+    background-color: black;  
+    color:white;
+    border:2px solid grey;
+    border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+    padding:0px 9px;
+}
+.container{
+    border:2px solid grey;
+    border-radius:30px;
+    position:absolute;
+    top:150px;
+    left:200px;
+    padding:0 20px;
+}
+.form-group{
+    position:relative;
+    left:50px;
+    padding-bottom:5px;
+}
+.butn{
+    position:relative;
+    left:75px;
+    font-family: 'Baloo Bhai', cursive;
+    background-color: black;  
+    color:white;
+    border:2px solid grey;
+    border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+/***************MEDIA QUERY************************/
+
+@media(max-width:540px){
+}
